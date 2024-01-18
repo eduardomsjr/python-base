@@ -17,7 +17,7 @@ Execution:
     ./hello.py
 """
 __version__ = "0.0.1"
-__author__ = "Eduardo Moura"
+__author__ = "Eduardo Júnior"
 __license__ = "Unlicense"
 
 import os
@@ -29,10 +29,10 @@ msg = "Hello, World!"
 if current_language == "pt_BR":
     msg = "Olá, Mundo!"
 elif current_language == "it_IT":
-    msg = "Ciao, Mondo!"
+    msg = "Ciao mondo!"
 elif current_language == "es_SP":
-    msg = "Hola, Mundo!"
+    msg = "¡Hola Mundo!"
 elif current_language == "fr_FR":
-    msg = "Bonjour Monde!"
+    msg = "Bonjour le monde!"
 
 print(msg)
